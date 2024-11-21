@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute"
+                  xmlns:remd="http://refeds.org/metadata" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+                  ID="_eb135ff6-9480-4d59-82fa-02501db83a7a" cacheDuration="P0Y0M0DT6H0M0.000S"
+                  entityID="https://sdauth.sciencedirect.com/" validUntil="2024-12-05T06:16:37.067Z">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="#_eb135ff6-9480-4d59-82fa-02501db83a7a">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>ExtNkHspDwmXvcAymTX8TCHBdj56W3pYGDGgPWaPapg=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>ti4s3brq9hA5maFMsYaWi/u0M+WlztzEKFOZZ9zfF4+u0EofMnh+FKsAXdjWfSMjn9mC/HjFH3Nl
+            NbANtbjCE0WCzywe+QIhm67J+atQoYJjBL+JL0YKEUqDzpHoswOZHN+WQFSuo0sn4712lQtGqrNI
+            XY6KhvcW2Nn8XB4MPEgU6/Da2mcDnvAyLhQC6pGZcKR7aSCySzcVpO9uwS7mc+JgAphtJUZVfPdX
+            PEsioy2JiXgSALYJvzpXUZR51nuxSKbIHo3NomrWfvwx75xolLmaeizY+R+LMBRQ/9ho7ube+eEb
+            PtxbU9L0v2kMcRxjA56AvgfNlKgjZK6q/7WH+w==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>MIIDaTCCAlGgAwIBAgIURNXyK4iyp9jWbQkOCjhMIkttH/4wDQYJKoZIhvcNAQELBQAwRDELMAkG
+                    A1UEBhMCQ04xGjAYBgNVBAoMEVBla2luZyBVbml2ZXJzaXR5MRkwFwYDVQQDDBB3d3cuY2Fyc2ku
+                    ZWR1LmNuMB4XDTI0MTEyMTA1NTE0NVoXDTM0MTExOTA1NTE0NVowRDELMAkGA1UEBhMCQ04xGjAY
+                    BgNVBAoMEVBla2luZyBVbml2ZXJzaXR5MRkwFwYDVQQDDBB3d3cuY2Fyc2kuZWR1LmNuMIIBIjAN
+                    BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxbe2C3rYV30Tuxkk8sN4CIjgh42L/pIc1IojRPOi
+                    tpsfsVlALJ8utvLHtBSTDN6jXXQx49yaCMUSU0CaWAJjG0pTP/eidPGfEjxlwkZxO38YJRlfmlbG
+                    4Hs55EpYMen5wXnA6+fx0CINZoLdL8alMtVGHgBi9UKJraX3qePMc8de+L2Q6XN7PcAUBbOw7DcA
+                    eeX00wEHYpxWJVxiP9aKi6rhZAnZQs3eaKuF3lFMgggdDJv0ZfwkATQPotJ+2IuvU9J4fSgxIqVn
+                    zbq2vXPXjpB/C8urVzOZA2g8711zSUSsUE2/ny3dZvJC3PBJP2kmyYwz6gIC8enW9OvwSHYGhwID
+                    AQABo1MwUTAdBgNVHQ4EFgQUIkOZZEUokK/kvtCJRpFPh/PZHCswHwYDVR0jBBgwFoAUIkOZZEUo
+                    kK/kvtCJRpFPh/PZHCswDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAV8X4dxrL
+                    ElebpfRMMZ4phherj0U8r8YZvVsZUb75PAmQ8pabHh69QoYWMmXTzpnUtl9TOAPInJQxkDbSKuki
+                    ORXhNUe8HZHY8787cSl4oT9y4BmyvImw59bzUacSfroBGGTZdMRb/fPzWJiHvVxrO8oROKfpIu1d
+                    7A7a0BAvkXOKs0o7eDx22UauEUIunVDdePd4gFdhYUPot1j+yWqfdLI/BkarU5mt9WP9hr3FYymt
+                    Cho8YsqdoNhN56xftnkV4CVsOLjqCg/oAdj/626a4AoinCYOnNKI3kPw/50JGPlG7UWRgGh4TlvC
+                    891npWskybaud8ZYfk2GoHbjtjaN1Q==
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <Extensions>
+        <mdrpi:RegistrationInfo xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi"
+                                registrationAuthority="http://ukfederation.org.uk"
+                                registrationInstant="2012-08-08T16:50:51Z"/>
+        <mdattr:EntityAttributes>
+            <saml:Attribute Name="urn:oasis:names:tc:SAML:attribute:assurance-certification"
+                            NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+                <saml:AttributeValue>https://refeds.org/sirtfi</saml:AttributeValue>
+            </saml:Attribute>
+        </mdattr:EntityAttributes>
+    </Extensions>
+    <SPSSODescriptor
+        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+        <Extensions>
+            <mdui:UIInfo xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui">
+                <mdui:DisplayName xml:lang="en">Elsevier</mdui:DisplayName>
+                <mdui:Description xml:lang="en">Access Elsevier products using your institutional credentials
+                </mdui:Description>
+                <mdui:Logo height="158" width="158">https://saml.elsevier.com/logos/elsevier-158x158.gif</mdui:Logo>
+                <mdui:Logo height="158" width="158">https://saml.elsevier.com/logos/elsevier-158x158.png</mdui:Logo>
+                <mdui:Logo height="100" width="100">https://saml.elsevier.com/logos/elsevier-100x100.gif</mdui:Logo>
+                <mdui:Logo height="100" width="100">https://saml.elsevier.com/logos/elsevier-100x100.png</mdui:Logo>
+                <mdui:Logo height="32" width="32">https://saml.elsevier.com/logos/elsevier-32x32.gif</mdui:Logo>
+                <mdui:Logo height="32" width="32">https://saml.elsevier.com/logos/elsevier-32x32.png</mdui:Logo>
+                <mdui:Logo height="400" width="400">https://saml.elsevier.com/logos/elsevier-400x400.gif</mdui:Logo>
+                <mdui:Logo height="400" width="400">https://saml.elsevier.com/logos/elsevier-400x400.png</mdui:Logo>
+                <mdui:InformationURL xml:lang="en">https://www.elsevier.com/about</mdui:InformationURL>
+                <mdui:PrivacyStatementURL xml:lang="en">https://www.elsevier.com/legal/privacy-policy
+                </mdui:PrivacyStatementURL>
+                <mdui:Keywords xml:lang="en">Elsevier Service Provider Identity Sign-in Login Single+Sign+On Publisher
+                    Access ScienceDirect Scopus ClinicalKey SciVal Reaxys Mendeley Embase Geofacets
+                </mdui:Keywords>
+            </mdui:UIInfo>
+        </Extensions>
+        <KeyDescriptor>
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDTjCCAjYCCQDP0/owytd5/TANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQG
+                        EwJVSzEPMA0GA1UECAwGTG9uZG9uMQ8wDQYDVQQHDAZMb25kb24xFTATBgNV
+                        BAoMDEVsc2V2aWVyIEx0ZDEhMB8GA1UEAwwYc2RhdXRoLnNjaWVuY2VkaXJl
+                        Y3QuY29tMB4XDTIwMTIxNzE0NDUzN1oXDTMwMTIxNTE0NDUzN1owaTELMAkG
+                        A1UEBhMCVUsxDzANBgNVBAgMBkxvbmRvbjEPMA0GA1UEBwwGTG9uZG9uMRUw
+                        EwYDVQQKDAxFbHNldmllciBMdGQxITAfBgNVBAMMGHNkYXV0aC5zY2llbmNl
+                        ZGlyZWN0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKWL
+                        GL3hQt8xlsptyUiyNz+HsoQcYDfGyV70NpoJ49961lqdUCRB4AjPOG07td9R
+                        KYHAEwnY9mnWGN6ldDg96Xw4iF7JpeLkQ6tIOvV18S2GhiqleTObGiFJSYz4
+                        6TLgUiwgKIjmwGbJo3TdOanl65MTe/WHcE5l1pat4aflAqtzzLXDvQ1OAY4s
+                        ZiduCAaftx8LSzU4d2fXlawQPr9yBBxcaD3LMzQu1tCI9L7sV8umAtPvctwy
+                        PVpTe+XIL1XfovLE1x7ResaREOkQu/huFdQ/AKV6W3RikZyslGyvt6esteTt
+                        7eV9jaTGOmz5jsH/s34fJXpw6LoHmzZCs0/XkwUCAwEAATANBgkqhkiG9w0B
+                        AQsFAAOCAQEATS5njNYzj7uSdy/pS0uo913k5zdj7e6DVsQpQIREmDm3rZTt
+                        c4LS1HIF6OZSmM+MXQvGhMocUGUhXh4iirEQjmqTqnmGy7fqutnULvKjy1B6
+                        d67ZWLxHnnkG8y6XNupA1SKaYpb/D0LzG8vukw4PsiG71uoMDiqPHmtPXmuq
+                        lWu1ErHn7fkqdjCRZgNEuEfdfN6r17UisQ3VdLzSq1Ew9WuQSn9eFm2ggDEw
+                        OXcWmJpBDDee16ssflF3RQt6DVVvAViwvkVesKU8Ug7yvUZZFtY51griL1cB
+                        oCVPeCmKHL0Y8cbWSCgsg/Qpi0kb19bSPNLxAB4SAfvYqQSnD8cZOA==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+            <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+        </KeyDescriptor>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                  Location="https://auth.elsevier.com/SHIRE/SAML2/POST" index="0"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post"
+                                  Location="https://auth.elsevier.com/SHIRE/SAML/POST" index="1"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post"
+                                  Location="https://sdauth.sciencedirect.com/SHIRE/SAML/POST" index="2"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                  Location="https://shibauth.elsevier.com/SHIRE/SAML2/POST" index="17"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post"
+                                  Location="https://shibauth.elsevier.com/SHIRE/SAML/POST" index="18"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                  Location="https://certnx-shibauth-np.elsevier.com/SHIRE/SAML2/POST" index="15"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post"
+                                  Location="https://certnx-shibauth-np.elsevier.com/SHIRE/SAML/POST" index="16"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post"
+                                  Location="https://loadcq-shibauth-np.elsevier.com/SHIRE/SAML2/POST" index="19"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post"
+                                  Location="https://loadcq-shibauth-np.elsevier.com/SHIRE/SAML/POST" index="20"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post"
+                                  Location="https://loadrc-shibauth-np.elsevier.com/SHIRE/SAML2/POST" index="21"/>
+        <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post"
+                                  Location="https://loadrc-shibauth-np.elsevier.com/SHIRE/SAML/POST" index="22"/>
+    </SPSSODescriptor>
+    <Organization>
+        <OrganizationName xml:lang="en">Elsevier B.V.</OrganizationName>
+        <OrganizationDisplayName xml:lang="en">Elsevier B.V.</OrganizationDisplayName>
+        <OrganizationURL xml:lang="en">http://www.elsevier.com/</OrganizationURL>
+    </Organization>
+    <ContactPerson contactType="support">
+        <GivenName>Elsevier Shibboleth Support</GivenName>
+        <EmailAddress>mailto:shibbolethsupport@elsevier.com</EmailAddress>
+    </ContactPerson>
+    <ContactPerson contactType="technical">
+        <GivenName>Elsevier Shibboleth Support</GivenName>
+        <EmailAddress>mailto:shibbolethsupport@elsevier.com</EmailAddress>
+    </ContactPerson>
+    <ContactPerson contactType="other" remd:contactType="http://refeds.org/metadata/contactType/security">
+        <GivenName>Elsevier Security Incident Response</GivenName>
+        <EmailAddress>mailto:contentprotectionservices@elsevier.com</EmailAddress>
+    </ContactPerson>
+</EntityDescriptor>
